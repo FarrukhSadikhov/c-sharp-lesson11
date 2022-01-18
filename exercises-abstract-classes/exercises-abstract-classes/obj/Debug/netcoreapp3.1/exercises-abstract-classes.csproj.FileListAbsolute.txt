@@ -1,0 +1,13 @@
+C:\Users\Farrukh\source\repos\exercises-abstract-classes\exercises-abstract-classes\obj\Debug\netcoreapp3.1\exercises-abstract-classes.csprojAssemblyReference.cache
+C:\Users\Farrukh\source\repos\exercises-abstract-classes\exercises-abstract-classes\obj\Debug\netcoreapp3.1\exercises-abstract-classes.AssemblyInfoInputs.cache
+C:\Users\Farrukh\source\repos\exercises-abstract-classes\exercises-abstract-classes\obj\Debug\netcoreapp3.1\exercises-abstract-classes.AssemblyInfo.cs
+C:\Users\Farrukh\source\repos\exercises-abstract-classes\exercises-abstract-classes\obj\Debug\netcoreapp3.1\exercises-abstract-classes.csproj.CoreCompileInputs.cache
+C:\Users\Farrukh\source\repos\exercises-abstract-classes\exercises-abstract-classes\bin\Debug\netcoreapp3.1\exercises-abstract-classes.exe
+C:\Users\Farrukh\source\repos\exercises-abstract-classes\exercises-abstract-classes\bin\Debug\netcoreapp3.1\exercises-abstract-classes.deps.json
+C:\Users\Farrukh\source\repos\exercises-abstract-classes\exercises-abstract-classes\bin\Debug\netcoreapp3.1\exercises-abstract-classes.runtimeconfig.json
+C:\Users\Farrukh\source\repos\exercises-abstract-classes\exercises-abstract-classes\bin\Debug\netcoreapp3.1\exercises-abstract-classes.runtimeconfig.dev.json
+C:\Users\Farrukh\source\repos\exercises-abstract-classes\exercises-abstract-classes\bin\Debug\netcoreapp3.1\exercises-abstract-classes.dll
+C:\Users\Farrukh\source\repos\exercises-abstract-classes\exercises-abstract-classes\bin\Debug\netcoreapp3.1\exercises-abstract-classes.pdb
+C:\Users\Farrukh\source\repos\exercises-abstract-classes\exercises-abstract-classes\obj\Debug\netcoreapp3.1\exercises-abstract-classes.dll
+C:\Users\Farrukh\source\repos\exercises-abstract-classes\exercises-abstract-classes\obj\Debug\netcoreapp3.1\exercises-abstract-classes.pdb
+C:\Users\Farrukh\source\repos\exercises-abstract-classes\exercises-abstract-classes\obj\Debug\netcoreapp3.1\exercises-abstract-classes.genruntimeconfig.cache
