@@ -6,6 +6,18 @@ namespace exercises_abstract_classes
 {
     class Aspirant : Person
     {
+        protected string subject;
+
+        public string  Subject
+        {
+            get { return subject; }
+            set { subject = value; }
+        }
+        public Aspirant(string Surname, int Course, int GradeBook, string Subject) :base (Surname,Course,GradeBook)
+        {
+            this.Subject = Subject;
+        }
+
         public static int counter = 0;
         public Aspirant() { arr = new Aspirant[counter]; }
 
@@ -65,7 +77,7 @@ namespace exercises_abstract_classes
                 for (int i = 0; i < arr.Length; i++)
                 {
                     Console.WriteLine($"Данные {i + 1} аспирант");
-                    Console.WriteLine($"Фамилия = {arr[i].Surname} Курс обучения = {arr[i].Course} Номер зачетной книги = {arr[i].GradeBook} Предмет защиты кандидатской диссертации = {arr[i].Subject} ");
+                    Console.WriteLine($"Фамилия = {arr[i].Surname} HashCode:{Math.Abs(arr[i].Surname.GetHashCode())} Курс обучения = {arr[i].Course} Номер зачетной книги = {arr[i].GradeBook} Предмет защиты кандидатской диссертации = {arr[i].Subject} ");
                 }
             }
             else

@@ -50,7 +50,6 @@ namespace exercises_abstract_classes
             while (countofInvalid > 0);
             return name;
         }
-
         static void Main(string[] args)
         {
             Student student = new Student();
@@ -121,7 +120,7 @@ namespace exercises_abstract_classes
                                 }
                                 if (number == "2")
                                 {
-                                    Console.WriteLine($"\nКоличество студентов {aspirant.arr.Length}\n");
+                                    Console.WriteLine($"\nКоличество аспирантов {aspirant.arr.Length}\n");
                                     break;
                                 }
                                 else { Console.WriteLine("Ошибка!!!Введите 1 или 2"); }

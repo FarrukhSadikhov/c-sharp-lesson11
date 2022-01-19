@@ -29,7 +29,7 @@ namespace exercises_abstract_classes
                 for (int i = 0; i < data.Length; i++)
                 {
                     Console.WriteLine($"Данные {i + 1} студента");
-                    Console.WriteLine($"Фамилия = {data[i].Surname} Курс обучения = {data[i].Course} Номер зачетной книги = {data[i].GradeBook}");
+                    Console.WriteLine($"Фамилия = {data[i].Surname} HashCode:{Math.Abs(data[i].Surname.GetHashCode())} Курс обучения = {data[i].Course} Номер зачетной книги = {data[i].GradeBook}");
                 }
             }
             else

@@ -6,22 +6,44 @@ namespace exercises_abstract_classes
 {
     abstract class Person
     {
-       
 
         public Person() { }
-        public string Surname { get; set; }
-        public int Course { get; set; }
 
-        public int GradeBook { get; set; }
+        protected string surname;
 
-        public string Subject { get; set; }
+        public  string Surname
+        {
+            get { return surname; }
+            set { surname = value; }
+        }
+        public override int GetHashCode()
+        {
+            return Surname.GetHashCode();
+        }
 
-        public Person(string Surname, int Course, int GradeBook, string Subject)
+
+        protected int course;
+
+        public int Course
+        {
+            get { return course; }
+            set { course = value; }
+        }
+
+        protected int gradebook;
+
+        public int GradeBook
+        {
+            get { return gradebook; }
+            set { gradebook = value; }
+        }
+
+        public Person(string Surname, int Course, int GradeBook)
         {
             this.Surname = Surname;
             this.Course = Course;
             this.GradeBook = GradeBook;
-            this.Subject = Subject;
+           
         }
 
         public abstract void Print();
